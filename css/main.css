@@ -2,8 +2,8 @@ body,
 body * {
   margin: 0;
   padding: 0;
-  vertical-align: top;
   box-sizing: border-box;
+  vertical-align: top;
 }
 
 body {
@@ -27,16 +27,31 @@ header {
 }
 .principal {
   float: left;
-  padding: 300px;
+  width: 100%;
+  padding: 200px;
   background-color: red;
-  background-image: url(../img/img_laivelis.jpg);
+  background-image: url(../img/laivelis.jpg);
   background-size: cover;
-  background-position: right;
+  background-repeat: no-repeat;
+  background-position: left;
+  text-align: left;
 }
 .text-principal {
   background-color: blue;
-  float: right;
-  width: 300px;
+  width: 80%;
+  margin-left: 300px;
+  margin-bottom: 0px;
+  line-height: 3em;
+  text-align: left;
+}
+.title {
+  font-size: 70px;
+  margin-bottom: 10px;
+  font-weight: normal;
+}
+.information {
+  font-size: 20px;
+  line-height: 1em;
 }
 .explanation {
   width: 50%;
