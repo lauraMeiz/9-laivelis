@@ -7,7 +7,7 @@ body * {
 }
 
 body {
-  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-family: serif;
 }
 header {
   width: 1000px;
@@ -24,7 +24,6 @@ header {
   display: inline-block;
   width: 1000px;
   margin-left: calc(50% - 500px);
-
 }
 .principal {
   float: left;
@@ -36,21 +35,21 @@ header {
   background-repeat: no-repeat;
   background-position: left;
   text-align: left;
-  border-top:  4px solid red;
-  border-bottom:  4px solid red;
-  
+  border-top: 4px solid rgb(184, 56, 56);
+  border-bottom: 4px solid rgb(184, 56, 56);
+  object-fit: contain;
 }
 .text-principal {
   float: left;
-  background-color:#E4E5E4
+  background-color: #e4e5e4;
   width: 60%;
-  margin-left: 400px;
+  margin-left: 420px;
   line-height: 3em;
   text-align: left;
 }
 .title {
-  font-size: 70px;
-  margin-bottom: 10px;
+  font-size: 80px;
+  margin-bottom: 30px;
   font-weight: normal;
   float: inline-end;
 }
@@ -62,28 +61,25 @@ header {
 }
 .explanation {
   width: 50%;
-  font-size: 15px;
+  font-size: 10px;
   margin-left: 30px;
   float: left;
-
-  margin-bottom: 30px;
+  margin-top: 30px;
+  margin-bottom: 10px;
 }
 
 .explanation-link {
-  font-size: 15px;
   text-decoration: none;
   color: rgb(19, 77, 110);
-  line-height: 1em;
+  line-height: 2em;
 }
 .variant-first {
-  margin-top: 2em;
-  line-height: 1em;
-  margin-bottom: 2em;
+  margin-top: 1em;
+  line-height: 2em;
+  margin-bottom: 1em;
 }
-.variant-second {
-  line-height: 1em;
-}
+
 .support {
-    color: rgb(19, 77, 110);
-    text-decoration: none;
+  color: rgb(19, 77, 110);
+  text-decoration: none;
 }
