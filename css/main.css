@@ -72,7 +72,7 @@ header {
 .explanation-link {
   font-size: 15px;
   text-decoration: none;
-  color: blueviolet;
+  color: rgb(19, 77, 110);
   line-height: 1em;
 }
 .variant-first {
@@ -82,4 +82,8 @@ header {
 }
 .variant-second {
   line-height: 1em;
+}
+.support {
+    color: rgb(19, 77, 110);
+    text-decoration: none;
 }
