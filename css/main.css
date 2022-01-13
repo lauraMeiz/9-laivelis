@@ -16,7 +16,7 @@ header {
 .logo {
   margin-left: 30px;
   float: left;
-  height: 60px;
+  height: 80px;
   object-position: left;
   object-fit: cover;
 }
@@ -24,23 +24,27 @@ header {
   display: inline-block;
   width: 1000px;
   margin-left: calc(50% - 500px);
+
 }
 .principal {
   float: left;
   width: 100%;
-  padding: 200px;
+  padding: 130px;
   background-color: red;
   background-image: url(../img/laivelis.jpg);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: left;
   text-align: left;
+  border-top:  4px solid red;
+  border-bottom:  4px solid red;
+  
 }
 .text-principal {
-  background-color: blue;
-  width: 80%;
-  margin-left: 300px;
-  margin-bottom: 0px;
+  float: left;
+  background-color:#E4E5E4
+  width: 60%;
+  margin-left: 400px;
   line-height: 3em;
   text-align: left;
 }
@@ -48,19 +52,21 @@ header {
   font-size: 70px;
   margin-bottom: 10px;
   font-weight: normal;
+  float: inline-end;
 }
 .information {
+  float: left;
   font-size: 20px;
   line-height: 1em;
+  margin-bottom: 80px;
 }
 .explanation {
   width: 50%;
   font-size: 15px;
   margin-left: 30px;
   float: left;
-  background-color: red;
+
   margin-bottom: 30px;
-  margin-top: 20px;
 }
 
 .explanation-link {
